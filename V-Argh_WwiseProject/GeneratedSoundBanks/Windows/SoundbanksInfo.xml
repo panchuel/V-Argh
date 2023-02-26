@@ -20,6 +20,15 @@
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_SoundBank</ObjectPath>
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="513182259" Name="Player_Scream_Play" ObjectPath="\Events\Default Work Unit\Player_Scream_Play" DurationType="OneShot" DurationMin="1.122517" DurationMax="1.122517"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="1046313783" Language="SFX">
+					<ShortName>Scream 1.wav</ShortName>
+					<Path>SFX\Scream 1_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
