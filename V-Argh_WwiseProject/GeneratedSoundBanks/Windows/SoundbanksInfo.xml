@@ -1,34 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<RootPaths>
-		<ProjectRoot>F:\Juegos\V-Argh\V-Argh_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>F:\Juegos\V-Argh\V-Argh_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>F:\Juegos\V-Argh\V-Argh_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>F:\Juegos\V-Argh\V-Argh_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
-	<StreamedFiles/>
-	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX">
-			<ObjectPath>Init</ObjectPath>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{986487A9-2683-E47A-8688-3D0FE6FDB954}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX">
-			<ObjectPath>\SoundBanks\Default Work Unit\Main_SoundBank</ObjectPath>
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{A1CDEC90-129F-6155-4816-26C26474819F}">
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
-			<IncludedEvents>
-				<Event Id="513182259" Name="Player_Scream_Play" ObjectPath="\Events\Default Work Unit\Player_Scream_Play" DurationType="OneShot" DurationMin="1.122517" DurationMax="1.122517"/>
-			</IncludedEvents>
-			<IncludedMemoryFiles>
-				<File Id="1046313783" Language="SFX">
+			<Media>
+				<File Id="1046313783" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Scream 1.wav</ShortName>
-					<Path>SFX\Scream 1_10C4C929.wem</Path>
+					<CachePath>SFX/Scream 1_10C4C929.wem</CachePath>
 				</File>
-			</IncludedMemoryFiles>
+			</Media>
+			<Events>
+				<Event Id="513182259" Name="Player_Scream_Play" DurationType="OneShot" DurationMin="1.122517" DurationMax="1.122517">
+					<MediaRefs>
+						<MediaRef Id="1046313783"/>
+					</MediaRefs>
+				</Event>
+			</Events>
 		</SoundBank>
 	</SoundBanks>
+	<FileHash>{A65953F1-E140-58DB-B5FC-9BF95E40978D}</FileHash>
 </SoundBanksInfo>

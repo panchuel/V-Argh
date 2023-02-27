@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{378DACBC-C718-444E-85B5-B8FF7D0108B0}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{378DACBC-C718-444E-85B5-B8FF7D0108B0}" SchemaVersion="110">
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{378DACBC-C718-444E-85B5-B8FF7D0108B0}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="Main_SoundBank" ID="{F85CA51D-0FEC-42B0-8712-A5B0F3A73878}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Player_Scream_Play" ID="{9FBE057E-4A7E-4643-B908-47DFEDC0EE7A}" WorkUnitID="{504C51EB-C748-411D-885B-F88DAA6C6D9E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Player_Scream_Play" ID="{9FBE057E-4A7E-4643-B908-47DFEDC0EE7A}" WorkUnitID="{504C51EB-C748-411D-885B-F88DAA6C6D9E}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

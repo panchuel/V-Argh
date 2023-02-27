@@ -2,5 +2,5 @@ Event	ID	Name			Wwise Object Path	Notes
 	513182259	Player_Scream_Play			\Default Work Unit\Player_Scream_Play	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	1046313783	Scream 1	F:\Juegos\V-Argh\V-Argh_WwiseProject\.cache\Windows\SFX\Scream 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scream 1	Esto es una prueba 	198076
+	1046313783	Scream 1	F:\Juegos\V-Argh\V-Argh_WwiseProject\.cache\Windows\SFX\Scream 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scream 1	Esto es una prueba 	198108
 

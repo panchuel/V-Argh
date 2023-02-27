@@ -423,6 +423,9 @@ MonoBehaviour:
   overlayType: 1
   compositionDepth: 0
   hidden: 0
+  overridePerLayerColorScaleAndOffset: 0
+  colorScale: {x: 1, y: 1, z: 1, w: 1}
+  colorOffset: {x: 0, y: 0, z: 0, w: 0}
   colorMapEditorType_: 1
   colorMapEditorGradient:
     serializedVersion: 2
@@ -456,6 +459,8 @@ MonoBehaviour:
   colorMapEditorContrast: 0
   colorMapEditorBrightness: 0
   colorMapEditorPosterize: 0
+  colorMapEditorSaturation: 0
+  serializedSurfaceGeometry: []
   textureOpacity_: 1
   edgeRenderingEnabled_: 1
   edgeColor_: {r: 1, g: 1, b: 1, a: 1}
