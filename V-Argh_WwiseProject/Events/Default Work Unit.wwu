@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{504C51EB-C748-411D-885B-F88DAA6C6D9E}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{504C51EB-C748-411D-885B-F88DAA6C6D9E}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{504C51EB-C748-411D-885B-F88DAA6C6D9E}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{504C51EB-C748-411D-885B-F88DAA6C6D9E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Player_Scream_Play" ID="{9FBE057E-4A7E-4643-B908-47DFEDC0EE7A}">
+					<ChildrenList>
+						<Action Name="" ID="{6E798111-E54F-430E-A836-90D203E0ACB9}" ShortID="340397221">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Scream 1" ID="{117A2E55-1C7D-4977-A76E-D3B3D22786C9}" WorkUnitID="{6079ED10-AFD2-423B-AD4C-6DFAF64BBF92}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
