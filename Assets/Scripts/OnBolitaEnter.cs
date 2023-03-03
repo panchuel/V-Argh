@@ -16,6 +16,6 @@ public class OnBolitaEnter : MonoBehaviour
 
     void Sparkles()
     {
-        ps.Play
+        ps.Play();
     }
 }
